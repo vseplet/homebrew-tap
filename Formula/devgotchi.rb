@@ -1,5 +1,5 @@
 class Devgotchi < Formula
-  desc "Tiny Bun-powered CLI that greets Homebrew"
+  desc "Collaborative devgotchi — presence, status and chat in your terminal"
   homepage "https://github.com/vseplet/devgotchi"
   version "0.2.0"
   license "MIT"

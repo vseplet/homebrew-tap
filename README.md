@@ -10,7 +10,7 @@ brew install vseplet/tap/<formula>
 
 ## Formulae
 
-- **devgotchi** — tiny Bun-powered CLI that greets Homebrew. Source: [vseplet/devgotchi](https://github.com/vseplet/devgotchi).
+- **devgotchi** — collaborative devgotchi: presence, status and chat in your terminal. Source: [vseplet/devgotchi](https://github.com/vseplet/devgotchi).
 
 ```sh
 brew install vseplet/tap/devgotchi
