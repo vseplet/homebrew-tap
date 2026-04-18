@@ -1,28 +1,28 @@
 class Devgotchi < Formula
   desc "Tiny Bun-powered CLI that greets Homebrew"
   homepage "https://github.com/vseplet/devgotchi"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/vseplet/devgotchi/releases/download/v#{version}/devgotchi-darwin-arm64"
-      sha256 "778dfed63be013b03f037181d5e8d747be598f5f276db533256dbf35a6eb5fa3"
+      sha256 "34ac38f4d8d3799c453ca9ceb87ff5cc881240cc7ef05f75bb0f9c47f51a9420"
     end
     on_intel do
       url "https://github.com/vseplet/devgotchi/releases/download/v#{version}/devgotchi-darwin-x64"
-      sha256 "875f74579b0345f557f4de3e43591711ab4322999abd04c4d14a875bc0fbb902"
+      sha256 "223c9cfebaac00b99a61e944acea549622f3920c35d45f039413056902164e62"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/vseplet/devgotchi/releases/download/v#{version}/devgotchi-linux-arm64"
-      sha256 "e99c3000692e1d4d7051021f2411617ed9cf9779b3ed20a870fd959b942bb6d6"
+      sha256 "a3c5d881fb09e91a024a63ae6fbac6a74b8aaf13c7ddf7db5ced4ec2bc3b1f97"
     end
     on_intel do
       url "https://github.com/vseplet/devgotchi/releases/download/v#{version}/devgotchi-linux-x64"
-      sha256 "d63fbd3b90b6169669066d0be0a2f9502b800b12e99d43656e36dcdb9da3e9fc"
+      sha256 "f23b67614ac8cab3ea197bd3e69255835947890f417e9d668a215da43d9004e4"
     end
   end
 
